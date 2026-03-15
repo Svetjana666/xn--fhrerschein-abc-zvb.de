@@ -1,0 +1,97 @@
+Netzwerk-Analyse: xn--fhrerschein-abc-zvb.de
+==============================================
+Datum: 2026-03-15 22:17:54 UTC
+Anzahl der Requests: 68
+
+=== EXTERNE DIENSTE ===
+
+1. CDN-Dienste:
+   - cdn.tailwindcss.com (302 Redirect -> 3.4.17)
+   - fonts.googleapis.com (Poppins Font)
+   - fonts.gstatic.com (Font Files)
+   - cdnjs.cloudflare.com (Font Awesome)
+
+2. Social Media Widgets:
+   - elfsightcdn.com/platform.js (Instagram/TikTok Integration)
+   - apps.elfsight.com/p/platform.js (301 Redirect)
+   - static.elfsight.com/platform/platform.js
+   - storage.elfsight.com/api/v2/data/ (Instagram Daten)
+   - storage.elfsight.com/api/tiktok (TikTok Profil)
+   - storage.elfsight.com/api/v2/tiktok/user-profiles
+   - static.elfsight.com/apps/instashow/stable/
+   - universe-static.elfsightcdn.com/app-releases/tiktok-feed/
+   - static.elfsight.com/apps/yottie/stable/ (YouTube)
+   - static.elfsight.com/icons/tiktok-multicolor.svg
+
+3. Fahrschul-Manager API:
+   - api.fahrschulmanager.de/v1/maxi/widget.js (mit Auth-Token)
+   - fahrenlernen.blob.core.windows.net/maxi/button.js
+
+4. Google Services:
+   - youtube.com/s/player/ (YouTube Widget API)
+   - www.youtube.com/iframe_api
+   - yt3.ggpht.com/ (YouTube Thumbnails)
+   - i.ytimg.com/ (Video Thumbnails)
+
+5. TikTok CDN:
+   - p16-common-sign.tiktokcdn-eu.com/ (Profile Images)
+
+6. Instagram Proxy:
+   - phosphor.utils.elfsightcdn.com/ (Instagram Image Proxy)
+
+=== LOKALE RESSOURCEN ===
+
+1. Bilder:
+   - assets/images/logo.jpeg
+   - assets/images/car.jpeg
+   - assets/images/motorcycle.jpg
+   - assets/images/why.jpeg
+   - assets/images/WhatsApp-Image-2024-09-11-at-10.02.17-2-e1727978899421.jpeg
+
+=== SICHERHEITSRELEVANTE FESTSTELLUNGEN ===
+
+1. CDN in Produktion:
+   WARNING: cdn.tailwindcss.com should not be used in production
+
+2. Externe API-Keys:
+   - Fahrschul-Manager Token: oH%2BenRuJEfdHHfsX0l0oIby8jahwXr0XkMK6fMo7mNOky%2Bwg40bnWKVm15hlkHnPATvYx%2Bd6SwH98ngt7VZO7g%3D%3D
+
+3. Tracking-Möglichkeiten:
+   - Google Fonts (IP-Tracking)
+   - Social Media Widgets (User Tracking)
+   - YouTube API (Verhaltensanalyse)
+
+=== VERDÄCHTIGE VERBINDUNGEN ===
+
+1. api.fahrschulmanager.de:
+   - Externe API mit Authentifizierung
+   - Potenzielles Data Harvesting
+
+2. Elfsight Platform:
+   - Mehrere Social Media Integrationen
+   - Datenaggregation über verschiedene Plattformen
+
+3. WhatsApp Widget:
+   - Console-Log zeigt Initialisierung
+   - Potenzielle Kontaktaufnahme-Methode
+
+=== PERFORMANCE-ANALYSE ===
+
+- Gesamtgröße: ~2.5MB (inkl. aller externen Ressourcen)
+- Ladezeit: ~3-5 Sekunden
+- Anzahl der Domains: 12 verschiedene externe Domains
+
+=== RISIKOBEWERTUNG ===
+
+HOCH:
+- Externe API mit Auth-Token
+- Mehrere Tracking-Dienste
+- Social Media Widgets
+
+MITTEL:
+- CDN-Nutzung in Produktion
+- Große Anzahl externer Abhängigkeiten
+
+NIEDRIG:
+- SSL-Verschlüsselung vorhanden
+- Keine offensichtlichen Malware-Verbindungen
