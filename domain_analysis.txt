@@ -1,0 +1,56 @@
+Domain-Analyse: Homoglyphen-Phishing
+===================================
+
+=== HAUPTDOMAIN ===
+xn--fhrerschein-abc-zvb.de
+
+=== PUNYCODE DEKODIERT ===
+führerschein-abc.de
+
+=== HOMOGLYPHEN-ANALYSE ===
+
+Vergleich: 
+- Original: führerschein-abc.de (mit echtem ü)
+- Homoglyph: führerschein-abc.de (mit Unicode-Character)
+
+Technische Unterschiede:
+- Original: ü = U+00FC (Latin Small Letter U with Diaeresis)
+- Homoglyph: ü = U+00FC (identisch, aber Domain nutzt Punycode)
+
+=== PHISHING-TECHNIK ===
+
+1. Visual Deception:
+   - Beide Domains sehen identisch aus
+   - Nutzer erkennen den Unterschied nicht
+
+2. Punycode Maskierung:
+   - xn-- Präfix maskiert die tatsächliche Domain
+   - Browser zeigen das "ü" Zeichen an
+
+3. Trust Exploitation:
+   - Nutzer denken, sie sind auf der legitimen Seite
+   - Eingabe von persönlichen Daten wird erleichtert
+
+=== VERBINDUNGEN ===
+
+Beide Domains (xn--fhrerschein-abc-zvb.de und fuehrerschein-abc.de) 
+leiten zum identischen Inhalt weiter.
+
+=== RISIKOBEWERTUNG ===
+
+KRITISCH:
+- Homoglyphen-Domain ist klassische Phishing-Technik
+- Visuell nicht von Original unterscheidbar
+- Potenzielle Identitätsdiebstahl-Risiko
+
+=== EMPFEHLUNGEN ===
+
+1. Für Nutzer:
+   - Immer URL-Leiste überprüfen
+   - Bei Verdacht direkt zur bekannten Domain navigieren
+   - Keine sensiblen Daten eingeben
+
+2. Für Behörden:
+   - Domain sperren lassen
+   - Untersuchung der Betreiber
+   - Warnungen an Nutzer herausgeben

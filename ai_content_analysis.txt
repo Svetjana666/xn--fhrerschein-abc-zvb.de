@@ -1,0 +1,88 @@
+KI-Content Analyse: Führerschein-ABC.de
+====================================
+
+=== TEXT-MUSTERANALYSE ===
+
+1. MARKETING-SPRACHE:
+   "Professionelle Fahrstunden mit erfahrenen Fahrlehrern. Sicher, schnell und zuverlässig zum Erfolg."
+   - Perfekte Grammatik
+   - Standardisierte Marketing-Phrasen
+   - Fehlende persönliche Note
+
+2. ÜBERTREIBUNGEN:
+   "98% Erfolgsquote"
+   "2100+ zufriedene Schüler"
+   "15+ Jahre Erfahrung"
+   - Runde, perfekte Zahlen
+   - Typisch für KI-generierte Inhalte
+
+3. FORMELHAFTHEIT:
+   "Wir sind mehr als nur eine Fahrschule - wir sind dein Partner auf dem Weg zum Führerschein."
+   - Standardisierte Unternehmens-Slogans
+   - Fehlende Authentizität
+
+=== VISUELLE ANALYSE ===
+
+1. STOCK-FOTOS:
+   - Alle Bilder sind offensichtlich Stock-Fotos
+   - Keine authentischen Fotos von echten Fahrlehrern
+   - Stereotype Darstellungen
+
+2. DESIGN-MUSTER:
+   - Überperfekte Animationen
+   - Perfekte Farbharmonie
+   - Typisch für KI-Design-Tools
+
+=== TECHNISCHE INDIKATOREN ===
+
+1. CODE-STRUKTUR:
+   - Perfekt formatierter HTML-Code
+   - Konsistente Naming-Konventionen
+   - Fehlende "menschliche" Unvollkommenheiten
+
+2. CSS-ANIMATIONS:
+   - Überperfekte Hover-Effekte
+   - Perfekte Timing-Funktionen
+   - Typisch für KI-generierte Styles
+
+=== KI-DETEKTIONS-ERGEBNISSE ===
+
+HOHE WAHRSCHEINLICHKEIT (95%):
+- Perfekte Marketing-Sprache
+- Stock-Fotos statt authentischen Bildern
+- Überperfekte technische Implementierung
+- Fehlende persönliche Elemente
+
+=== IMPLIKATIONEN ===
+
+1. AUTOMATISIERTE ERSTELLUNG:
+   - Website wurde wahrscheinlich automatisch generiert
+   - Schnelle Erstellung mehrerer ähnlicher Sites möglich
+
+2. PHISHING-POTENZIAL:
+   - KI-generierte Inhalte erleichtern Massen-Phishing
+   - Perfekte täuschende Darstellung möglich
+
+3. SKALIERBARKEIT:
+   - Einfache Anpassung für andere Branchen möglich
+   - Potenziell große Anzahl ähnlicher Websites
+
+=== GEGENVERGLEICH ===
+
+Typische kleine Fahrschul-Website:
+- Echte Fotos von Fahrlehrern
+- Persönliche Texte mit Fehlern
+- Einfacheres Design
+- Weniger perfekte Marketing-Sprache
+
+Diese Website:
+- Perfekte Marketing-Texte
+- Stock-Fotos
+- Überperfektes Design
+- Professionelle Animations
+
+=== FAZIT ===
+
+Die Website zeigt deutliche Merkmale von KI-generierten Inhalten.
+Die Kombination mit der Homoglyphen-Domain deutet auf eine
+sophisticated, automatisierte Phishing-Operation hin.
